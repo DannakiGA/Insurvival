@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: 8fd57632ff237d4489a9aa68f3697e09
+timeCreated: 1649000005
+licenseType: Free
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: minigun_1
+  - first:
+      213: 21300002
+    second: minigun_4
+  - first:
+      213: 21300004
+    second: minigun_0
+  - first:
+      213: 21300006
+    second: minigun_3
+  - first:
+      213: 21300008
+    second: minigun_2
+  externalObjects: {}
+  usedFileIDs: []
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 240
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: minigun_1
+      rect:
+        serializedVersion: 2
+        x: 51.026752
+        y: 0
+        width: 41.897125
+        height: 37.973248
+      alignment: 9
+      pivot: {x: 0.5005892, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.024685, y: -18.986624}
+        - {x: -20.975315, y: -18.986624}
+        - {x: -20.975315, y: -9.986624}
+        - {x: -18.975315, y: 9.013376}
+        - {x: -11.975315, y: 19.013376}
+        - {x: 16.024685, y: 19.013376}
+        - {x: 21.024685, y: -7.986624}
+      physicsShape:
+      - - {x: -11.975315, y: 19.013376}
+        - {x: -18.975315, y: 9.013378}
+        - {x: -20.975315, y: -9.986624}
+        - {x: -20.975315, y: -18.986624}
+        - {x: 21.024685, y: -18.986624}
+        - {x: 21.024685, y: -11.986624}
+        - {x: 20.024685, y: -1.9866238}
+        - {x: 14.024686, y: 17.013376}
+        - {x: 7.0246854, y: 19.013376}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c39a0507c674d56b4f5ab3dc7b2e68d
+      internalID: 21300000
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minigun_4
+      rect:
+        serializedVersion: 2
+        x: 195.02675
+        y: 0
+        width: 41.897125
+        height: 46.987087
+      alignment: 9
+      pivot: {x: 0.50058925, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.024689, y: -23.493544}
+        - {x: -20.975311, y: -23.493544}
+        - {x: -20.975311, y: 15.506456}
+        - {x: -2.9753113, y: 23.506456}
+        - {x: 6.0246887, y: 23.506456}
+        - {x: 21.024689, y: 17.506456}
+      physicsShape:
+      - - {x: 11.024689, y: 4.5064583}
+        - {x: 19.024689, y: 12.506456}
+        - {x: 17.024689, y: 15.506456}
+        - {x: 4.0246887, y: 23.506456}
+        - {x: -2.9753113, y: 23.506456}
+        - {x: -20.975311, y: 15.506456}
+        - {x: -20.975311, y: 9.506456}
+        - {x: -16.975311, y: 2.5064564}
+        - {x: -20.975311, y: -16.493544}
+        - {x: -20.975311, y: -23.493544}
+        - {x: 21.024689, y: -23.493544}
+        - {x: 21.024689, y: -18.493544}
+        - {x: 18.024689, y: -7.4935436}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4b3a5b8296471baa047416676bd560
+      internalID: 21300002
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minigun_0
+      rect:
+        serializedVersion: 2
+        x: 2.026751
+        y: 0
+        width: 43.897125
+        height: 40.973248
+      alignment: 9
+      pivot: {x: 0.50056237, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.024687, y: -20.486624}
+        - {x: -21.975313, y: -20.486624}
+        - {x: -21.975313, y: -17.486624}
+        - {x: -16.975313, y: 9.513376}
+        - {x: -8.975313, y: 20.513376}
+        - {x: 7.024687, y: 20.513376}
+        - {x: 17.024687, y: 7.513376}
+        - {x: 22.024687, y: -8.486624}
+      physicsShape:
+      - - {x: 7.0246873, y: 20.513376}
+        - {x: -8.975313, y: 20.513376}
+        - {x: -16.975313, y: 9.513376}
+        - {x: -21.975313, y: -17.486624}
+        - {x: -21.975313, y: -20.486624}
+        - {x: 22.024687, y: -20.486624}
+        - {x: 22.024687, y: -8.486624}
+        - {x: 17.024687, y: 7.513378}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602f9ae3379742c0a936a191c568ac59
+      internalID: 21300004
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minigun_3
+      rect:
+        serializedVersion: 2
+        x: 147.02675
+        y: 0
+        width: 41.897125
+        height: 45.987087
+      alignment: 9
+      pivot: {x: 0.50058925, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.024689, y: -22.993544}
+        - {x: -20.975311, y: -22.993544}
+        - {x: -20.975311, y: -12.993544}
+        - {x: -13.975311, y: 23.006456}
+        - {x: 13.024689, y: 23.006456}
+        - {x: 21.024689, y: -16.993544}
+      physicsShape:
+      - - {x: 13.024689, y: 23.006456}
+        - {x: -10.975311, y: 23.006456}
+        - {x: -11.975311, y: 22.006456}
+        - {x: -13.975312, y: 3.0064564}
+        - {x: -19.975311, y: -9.993544}
+        - {x: -20.975311, y: -14.993544}
+        - {x: -20.975311, y: -22.993544}
+        - {x: 21.024689, y: -22.993544}
+        - {x: 21.024689, y: -17.993544}
+        - {x: 12.024689, y: 19.006456}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf45875df078442a93b93c7d82973b16
+      internalID: 21300006
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minigun_2
+      rect:
+        serializedVersion: 2
+        x: 99.02675
+        y: 0
+        width: 41.897125
+        height: 47.923878
+      alignment: 9
+      pivot: {x: 0.50058925, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.024689, y: -23.961939}
+        - {x: -20.975311, y: -23.961939}
+        - {x: -20.975311, y: -15.961939}
+        - {x: -14.975311, y: 14.038061}
+        - {x: -6.9753113, y: 24.038061}
+        - {x: 3.0246887, y: 24.038061}
+        - {x: 21.024689, y: 16.038061}
+      physicsShape:
+      - - {x: 2.0246887, y: 24.038061}
+        - {x: -1.9753113, y: 24.038061}
+        - {x: -3.9753113, y: 22.038061}
+        - {x: -14.975311, y: 14.038061}
+        - {x: -12.975311, y: 10.038061}
+        - {x: -20.975311, y: -17.961939}
+        - {x: -20.975311, y: -23.961939}
+        - {x: 21.024689, y: -23.961939}
+        - {x: 21.024689, y: -17.961939}
+        - {x: 16.024689, y: 13.038061}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5f50975c554aae96f5611360bc035d
+      internalID: 21300008
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag:
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

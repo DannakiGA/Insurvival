@@ -1,0 +1,3306 @@
+fileFormatVersion: 2
+guid: 36b29bcfb3171774eafc533d4cdd0ab9
+timeCreated: 1649000006
+licenseType: Free
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: heartbeat_15
+  - first:
+      213: 21300002
+    second: heartbeat_31
+  - first:
+      213: 21300004
+    second: heartbeat_38
+  - first:
+      213: 21300006
+    second: heartbeat_23
+  - first:
+      213: 21300008
+    second: heartbeat_33
+  - first:
+      213: 21300010
+    second: heartbeat_43
+  - first:
+      213: 21300012
+    second: heartbeat_35
+  - first:
+      213: 21300014
+    second: heartbeat_7
+  - first:
+      213: 21300016
+    second: heartbeat_17
+  - first:
+      213: 21300018
+    second: heartbeat_25
+  - first:
+      213: 21300020
+    second: heartbeat_40
+  - first:
+      213: 21300022
+    second: heartbeat_26
+  - first:
+      213: 21300024
+    second: heartbeat_36
+  - first:
+      213: 21300026
+    second: heartbeat_9
+  - first:
+      213: 21300028
+    second: heartbeat_2
+  - first:
+      213: 21300030
+    second: heartbeat_32
+  - first:
+      213: 21300032
+    second: heartbeat_24
+  - first:
+      213: 21300034
+    second: heartbeat_5
+  - first:
+      213: 21300036
+    second: heartbeat_22
+  - first:
+      213: 21300038
+    second: heartbeat_18
+  - first:
+      213: 21300040
+    second: heartbeat_44
+  - first:
+      213: 21300042
+    second: heartbeat_29
+  - first:
+      213: 21300044
+    second: heartbeat_3
+  - first:
+      213: 21300046
+    second: heartbeat_34
+  - first:
+      213: 21300048
+    second: heartbeat_21
+  - first:
+      213: 21300050
+    second: heartbeat_4
+  - first:
+      213: 21300052
+    second: heartbeat_13
+  - first:
+      213: 21300054
+    second: heartbeat_28
+  - first:
+      213: 21300056
+    second: heartbeat_12
+  - first:
+      213: 21300058
+    second: heartbeat_30
+  - first:
+      213: 21300060
+    second: heartbeat_19
+  - first:
+      213: 21300062
+    second: heartbeat_10
+  - first:
+      213: 21300064
+    second: heartbeat_42
+  - first:
+      213: 21300066
+    second: heartbeat_8
+  - first:
+      213: 21300068
+    second: heartbeat_6
+  - first:
+      213: 21300070
+    second: heartbeat_11
+  - first:
+      213: 21300072
+    second: heartbeat_0
+  - first:
+      213: 21300074
+    second: heartbeat_16
+  - first:
+      213: 21300076
+    second: heartbeat_1
+  - first:
+      213: 21300078
+    second: heartbeat_27
+  - first:
+      213: 21300080
+    second: heartbeat_20
+  - first:
+      213: 21300082
+    second: heartbeat_41
+  - first:
+      213: 21300084
+    second: heartbeat_39
+  - first:
+      213: 21300086
+    second: heartbeat_14
+  - first:
+      213: 21300088
+    second: heartbeat_37
+  - first:
+      213: 21300090
+    second: heartbeat_87
+  - first:
+      213: 21300092
+    second: heartbeat_70
+  - first:
+      213: 21300094
+    second: heartbeat_77
+  - first:
+      213: 21300096
+    second: heartbeat_71
+  - first:
+      213: 21300098
+    second: heartbeat_49
+  - first:
+      213: 21300100
+    second: heartbeat_75
+  - first:
+      213: 21300102
+    second: heartbeat_72
+  - first:
+      213: 21300104
+    second: heartbeat_48
+  - first:
+      213: 21300106
+    second: heartbeat_50
+  - first:
+      213: 21300108
+    second: heartbeat_68
+  - first:
+      213: 21300110
+    second: heartbeat_54
+  - first:
+      213: 21300112
+    second: heartbeat_85
+  - first:
+      213: 21300114
+    second: heartbeat_66
+  - first:
+      213: 21300116
+    second: heartbeat_74
+  - first:
+      213: 21300118
+    second: heartbeat_79
+  - first:
+      213: 21300120
+    second: heartbeat_81
+  - first:
+      213: 21300122
+    second: heartbeat_58
+  - first:
+      213: 21300124
+    second: heartbeat_61
+  - first:
+      213: 21300126
+    second: heartbeat_76
+  - first:
+      213: 21300128
+    second: heartbeat_86
+  - first:
+      213: 21300130
+    second: heartbeat_52
+  - first:
+      213: 21300132
+    second: heartbeat_69
+  - first:
+      213: 21300134
+    second: heartbeat_53
+  - first:
+      213: 21300136
+    second: heartbeat_56
+  - first:
+      213: 21300138
+    second: heartbeat_62
+  - first:
+      213: 21300140
+    second: heartbeat_80
+  - first:
+      213: 21300142
+    second: heartbeat_57
+  - first:
+      213: 21300144
+    second: heartbeat_60
+  - first:
+      213: 21300146
+    second: heartbeat_46
+  - first:
+      213: 21300148
+    second: heartbeat_83
+  - first:
+      213: 21300150
+    second: heartbeat_63
+  - first:
+      213: 21300152
+    second: heartbeat_45
+  - first:
+      213: 21300154
+    second: heartbeat_82
+  - first:
+      213: 21300156
+    second: heartbeat_84
+  - first:
+      213: 21300158
+    second: heartbeat_51
+  - first:
+      213: 21300160
+    second: heartbeat_47
+  - first:
+      213: 21300162
+    second: heartbeat_73
+  - first:
+      213: 21300164
+    second: heartbeat_65
+  - first:
+      213: 21300166
+    second: heartbeat_59
+  - first:
+      213: 21300168
+    second: heartbeat_55
+  - first:
+      213: 21300170
+    second: heartbeat_64
+  - first:
+      213: 21300172
+    second: heartbeat_78
+  - first:
+      213: 21300174
+    second: heartbeat_67
+  externalObjects: {}
+  usedFileIDs: []
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 512
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heartbeat_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 5, y: 12}
+        - {x: -2, y: 12}
+        - {x: -13, y: 5}
+        - {x: -15, y: 1}
+        - {x: -15, y: -8}
+        - {x: -10, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 2}
+        - {x: 11, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005f019ebc414bf3a2221df56996ce7d
+      internalID: 21300000
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 12, y: 16}
+        - {x: -12, y: 16}
+        - {x: -12, y: 1}
+        - {x: -9, y: -4}
+        - {x: -10, y: -16}
+        - {x: 8, y: -16}
+        - {x: 7, y: -4}
+        - {x: 12, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168b2d1ab12643ef9459313f5cce715f
+      internalID: 21300002
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 9, y: 6}
+        - {x: 5, y: 11}
+        - {x: 2, y: 14}
+        - {x: -5, y: 14}
+        - {x: -14, y: 3}
+        - {x: -14, y: -11}
+        - {x: -12, y: -16}
+        - {x: 10, y: -16}
+        - {x: 14, y: -7}
+        - {x: 14, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5f59c5740346319636a77322a223a6
+      internalID: 21300004
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 10, y: 12}
+        - {x: -11, y: 12}
+        - {x: -14, y: 11}
+        - {x: -15, y: 8}
+        - {x: -15, y: -4}
+        - {x: -10, y: -15}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -15}
+        - {x: 15, y: -2}
+        - {x: 15, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460ef7645c96405db713d2cc81be50e5
+      internalID: 21300006
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -7, y: 14}
+        - {x: -12, y: 6}
+        - {x: -12, y: -4}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -13}
+        - {x: 13, y: 7}
+        - {x: 3, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99362e2a645c4e97bca2cb1e28b78a86
+      internalID: 21300008
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 4, y: 15}
+        - {x: -4, y: 15}
+        - {x: -12, y: 7}
+        - {x: -12, y: -9}
+        - {x: -10, y: -16}
+        - {x: 9, y: -16}
+        - {x: 13, y: -9}
+        - {x: 13, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36ddbcfa7864a2c8f80c0b5fb0a420c
+      internalID: 21300010
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -4, y: 14}
+        - {x: -13, y: 6}
+        - {x: -13, y: 0}
+        - {x: -11, y: -4}
+        - {x: -6, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -4}
+        - {x: 13, y: 5}
+        - {x: 3, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d57435fb979466bbf28ea080b33485e
+      internalID: 21300012
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 9, y: 10}
+        - {x: -8, y: 10}
+        - {x: -13, y: 5}
+        - {x: -13, y: -4}
+        - {x: -11, y: -12}
+        - {x: -10, y: -14}
+        - {x: -8, y: -16}
+        - {x: 9, y: -16}
+        - {x: 10, y: -14}
+        - {x: 13, y: -5}
+        - {x: 13, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816c44f636ee4c8b8cc9856c278277e9
+      internalID: 21300014
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 10, y: 12}
+        - {x: -10, y: 12}
+        - {x: -14, y: 11}
+        - {x: -15, y: 8}
+        - {x: -15, y: -4}
+        - {x: -10, y: -15}
+        - {x: -9, y: -16}
+        - {x: 14, y: -16}
+        - {x: 11, y: -7}
+        - {x: 15, y: 0}
+        - {x: 15, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5066ca0011864726ad49695d0cc45186
+      internalID: 21300016
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -4, y: 14}
+        - {x: -13, y: 6}
+        - {x: -13, y: 0}
+        - {x: -11, y: -4}
+        - {x: -6, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -4}
+        - {x: 13, y: 5}
+        - {x: 3, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b115937effa419995507c964d50eb94
+      internalID: 21300018
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -12, y: 16}
+        - {x: -13, y: 15}
+        - {x: -13, y: 5}
+        - {x: -11, y: 0}
+        - {x: -10, y: -16}
+        - {x: 9, y: -16}
+        - {x: 12, y: -4}
+        - {x: 12, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7473bbcf3843e8aba5a265d8f6f8b9
+      internalID: 21300020
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 3, y: 13}
+        - {x: -4, y: 13}
+        - {x: -13, y: 8}
+        - {x: -13, y: -11}
+        - {x: -12, y: -16}
+        - {x: 8, y: -16}
+        - {x: 13, y: -1}
+        - {x: 13, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab280e9c8ae4049b2189101e925c435
+      internalID: 21300022
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 3, y: 13}
+        - {x: -4, y: 13}
+        - {x: -13, y: 8}
+        - {x: -13, y: -11}
+        - {x: -12, y: -16}
+        - {x: 8, y: -16}
+        - {x: 13, y: -1}
+        - {x: 13, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddd4a4d77ad42a38779a5663a89c8bc
+      internalID: 21300024
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -11, y: 10}
+        - {x: -13, y: 7}
+        - {x: -13, y: -6}
+        - {x: -11, y: -15}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -15}
+        - {x: 11, y: 8}
+        - {x: 4, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66586be8496144a2a49378aaf524ac7e
+      internalID: 21300026
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 13, y: 4}
+        - {x: 9, y: 10}
+        - {x: -9, y: 10}
+        - {x: -13, y: 2}
+        - {x: -13, y: -5}
+        - {x: -9, y: -10}
+        - {x: -10, y: -15}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -14}
+        - {x: 13, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaec84285404d359ebd47c57e0e857f
+      internalID: 21300028
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 2, y: 14}
+        - {x: -2, y: 12}
+        - {x: -5, y: 9}
+        - {x: -5, y: 8}
+        - {x: -4, y: 12}
+        - {x: -6, y: 14}
+        - {x: -8, y: 14}
+        - {x: -14, y: 9}
+        - {x: -14, y: -4}
+        - {x: -10, y: -16}
+        - {x: 12, y: -16}
+        - {x: 13, y: -12}
+        - {x: 13, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5c1d41e3514241b2f4b010e24feae2
+      internalID: 21300030
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -3, y: -1}
+        - {x: -16, y: -5}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -8}
+        - {x: 12, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab9041613be4c2cab8e9ed070a1c7ea
+      internalID: 21300032
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -13, y: 8}
+        - {x: -13, y: -8}
+        - {x: -12, y: -15}
+        - {x: -10, y: -16}
+        - {x: 9, y: -16}
+        - {x: 10, y: -14}
+        - {x: 13, y: -5}
+        - {x: 13, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b929cc44e11422b980a26cc8003db8f
+      internalID: 21300034
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -15, y: 12}
+        - {x: -15, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: -2}
+        - {x: 11, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0206666b5af4f9f827936691917d777
+      internalID: 21300036
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 9, y: 12}
+        - {x: -4, y: 12}
+        - {x: -11, y: 9}
+        - {x: -13, y: 8}
+        - {x: -13, y: -7}
+        - {x: -11, y: -15}
+        - {x: -11, y: -16}
+        - {x: 14, y: -16}
+        - {x: 11, y: -7}
+        - {x: 15, y: 0}
+        - {x: 15, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7f79c9f6bc4ef3b2e5b7af85a7001f
+      internalID: 21300038
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -11, y: -7}
+        - {x: -14, y: -12}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: -10}
+        - {x: 9, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e7837e24004c4386b95ad3a2df2a28
+      internalID: 21300040
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 8, y: -11}
+        - {x: 13, y: -3}
+        - {x: 13, y: 7}
+        - {x: 3, y: 14}
+        - {x: -8, y: 14}
+        - {x: -13, y: 6}
+        - {x: -13, y: 0}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e6db826e0642479332d914c48c201b
+      internalID: 21300042
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 7, y: 10}
+        - {x: -12, y: 10}
+        - {x: -12, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a532771c0a424383046b5e7c08c4cb
+      internalID: 21300044
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_34
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 6, y: -8}
+        - {x: -5, y: -8}
+        - {x: -10, y: -9}
+        - {x: -14, y: -12}
+        - {x: -14, y: -14}
+        - {x: -12, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: -13}
+        - {x: 13, y: -9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185a33e788a740d0b49ae81f7f02b475
+      internalID: 21300046
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -11, y: 12}
+        - {x: -13, y: 11}
+        - {x: -15, y: 8}
+        - {x: -15, y: -2}
+        - {x: -10, y: -10}
+        - {x: -11, y: -15}
+        - {x: -11, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 9}
+        - {x: 10, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9231c0fc194da19b372fb6426ea155
+      internalID: 21300048
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 6, y: 10}
+        - {x: -11, y: 10}
+        - {x: -13, y: 5}
+        - {x: -13, y: -10}
+        - {x: -10, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13456189b8934c08baf7cda6424e56e9
+      internalID: 21300050
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 1, y: 12}
+        - {x: -7, y: 12}
+        - {x: -11, y: 7}
+        - {x: -13, y: 2}
+        - {x: -13, y: -6}
+        - {x: -9, y: -16}
+        - {x: 14, y: -16}
+        - {x: 15, y: -12}
+        - {x: 15, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502ec90cf2634724986b48b64bad40e0
+      internalID: 21300052
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 9, y: 6}
+        - {x: 5, y: 11}
+        - {x: 2, y: 14}
+        - {x: -5, y: 14}
+        - {x: -14, y: 3}
+        - {x: -14, y: -11}
+        - {x: -12, y: -16}
+        - {x: 10, y: -16}
+        - {x: 14, y: -7}
+        - {x: 14, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ca5c5afef84d0a9a2eb6046180e9e2
+      internalID: 21300054
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -8, y: 12}
+        - {x: -13, y: 10}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 14, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6a7ff42b1b420b912b1caac0506656
+      internalID: 21300056
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -12, y: 16}
+        - {x: -13, y: 15}
+        - {x: -13, y: 5}
+        - {x: -11, y: 0}
+        - {x: -10, y: -16}
+        - {x: 9, y: -16}
+        - {x: 12, y: -4}
+        - {x: 12, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fbcbbade9b4ac79ec2c28b0673c902
+      internalID: 21300058
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -5, y: 12}
+        - {x: -12, y: 1}
+        - {x: -12, y: -13}
+        - {x: -11, y: -15}
+        - {x: -11, y: -16}
+        - {x: 14, y: -16}
+        - {x: 15, y: -11}
+        - {x: 15, y: 9}
+        - {x: 9, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a46cb18d314a5ea10396531bb39cc8
+      internalID: 21300060
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 8, y: 10}
+        - {x: -9, y: 10}
+        - {x: -13, y: 2}
+        - {x: -13, y: -8}
+        - {x: -10, y: -15}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 12, y: -15}
+        - {x: 13, y: -7}
+        - {x: 13, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720700322d664a9da1aca8ade6d7baa6
+      internalID: 21300062
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_42
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 2, y: 14}
+        - {x: -2, y: 12}
+        - {x: -5, y: 9}
+        - {x: -5, y: 8}
+        - {x: -4, y: 12}
+        - {x: -6, y: 14}
+        - {x: -8, y: 14}
+        - {x: -14, y: 9}
+        - {x: -14, y: -4}
+        - {x: -10, y: -16}
+        - {x: 12, y: -16}
+        - {x: 13, y: -12}
+        - {x: 13, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b997ee1cc60a411ea24ede279f800d8e
+      internalID: 21300064
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 13, y: 10}
+        - {x: -9, y: 10}
+        - {x: -13, y: 2}
+        - {x: -13, y: -8}
+        - {x: -10, y: -15}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 12, y: -15}
+        - {x: 11, y: -8}
+        - {x: 13, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55d3240115a43f4a0103787d3dbc3b5
+      internalID: 21300066
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 8, y: 10}
+        - {x: -5, y: 10}
+        - {x: -10, y: 9}
+        - {x: -10, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -14}
+        - {x: 12, y: -5}
+        - {x: 12, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b21aebf2ae64db298bf9625c50eb690
+      internalID: 21300068
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -13}
+        - {x: 11, y: -2}
+        - {x: -9, y: -2}
+        - {x: -13, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0aa5e2fda59441bae2d3cade2926004
+      internalID: 21300070
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -5, y: 10}
+        - {x: -11, y: 9}
+        - {x: -11, y: -13}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -14}
+        - {x: 13, y: -9}
+        - {x: 13, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d2bbcaee5c4ea3b0446287b8ee57fa
+      internalID: 21300072
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 10, y: 12}
+        - {x: -9, y: 12}
+        - {x: -16, y: 9}
+        - {x: -16, y: -10}
+        - {x: -13, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: -15}
+        - {x: 13, y: -11}
+        - {x: 13, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73addd15a9cf433a90a5fa49c87b5c1a
+      internalID: 21300074
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -9, y: 10}
+        - {x: -10, y: 6}
+        - {x: -10, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: 5}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e6d6a3f5724709a016d8a382a1f7ff
+      internalID: 21300076
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -2, y: 13}
+        - {x: -13, y: 5}
+        - {x: -13, y: 1}
+        - {x: -11, y: -3}
+        - {x: -9, y: -16}
+        - {x: 5, y: -16}
+        - {x: 13, y: -6}
+        - {x: 13, y: 4}
+        - {x: 6, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b51ce5de76c437a9675759ee5182afd
+      internalID: 21300078
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 13, y: 10}
+        - {x: 7, y: 12}
+        - {x: -3, y: 12}
+        - {x: -15, y: 9}
+        - {x: -15, y: -3}
+        - {x: -11, y: -15}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 12, y: -15}
+        - {x: 15, y: 2}
+        - {x: 15, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2a1a1c488147b198d68cc096725d8a
+      internalID: 21300080
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 12, y: 16}
+        - {x: -12, y: 16}
+        - {x: -12, y: 1}
+        - {x: -9, y: -4}
+        - {x: -10, y: -16}
+        - {x: 8, y: -16}
+        - {x: 7, y: -4}
+        - {x: 12, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e11e3ade1ca4b9d845f28fccdf76f9e
+      internalID: 21300082
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_39
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 8, y: -11}
+        - {x: 13, y: -3}
+        - {x: 13, y: 7}
+        - {x: 3, y: 14}
+        - {x: -8, y: 14}
+        - {x: -13, y: 6}
+        - {x: -13, y: 0}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2e2180ebfc44d5b84923a394bedb26
+      internalID: 21300084
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 7, y: 12}
+        - {x: -4, y: 12}
+        - {x: -14, y: 7}
+        - {x: -14, y: -8}
+        - {x: -11, y: -12}
+        - {x: -9, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -15}
+        - {x: 14, y: -7}
+        - {x: 14, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee26a7fcbb340d89f569860278d8263
+      internalID: 21300086
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -2, y: 13}
+        - {x: -13, y: 5}
+        - {x: -13, y: 1}
+        - {x: -11, y: -3}
+        - {x: -9, y: -16}
+        - {x: 5, y: -16}
+        - {x: 13, y: -6}
+        - {x: 13, y: 4}
+        - {x: 6, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22851b3c5ebe4584bfc6527b59f8c354
+      internalID: 21300088
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_87
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 7, y: -1}
+        - {x: -7, y: -1}
+        - {x: -16, y: -5}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -12}
+        - {x: 15, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f9baaeba7345c2b9545de38224ae2d
+      internalID: 21300090
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 10, y: 7}
+        - {x: -8, y: 7}
+        - {x: -14, y: 5}
+        - {x: -15, y: -4}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: -9}
+        - {x: 12, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff8f51284a04e9698143e629c7675ca
+      internalID: 21300092
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -10, y: 13}
+        - {x: -14, y: 7}
+        - {x: -14, y: -4}
+        - {x: -13, y: -7}
+        - {x: 7, y: -7}
+        - {x: 12, y: -6}
+        - {x: 14, y: -4}
+        - {x: 14, y: 8}
+        - {x: 7, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f37d7f90a2423e99c28c4a0e3bf1b5
+      internalID: 21300094
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_71
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -16, y: -1}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -13}
+        - {x: 13, y: 4}
+        - {x: 6, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d947bbfd6ed54a6e88f71c3109e19acd
+      internalID: 21300096
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 5, y: 13}
+        - {x: -7, y: 13}
+        - {x: -12, y: 5}
+        - {x: -12, y: -11}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -9}
+        - {x: 11, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ec012e43cb467aa49d7757b57ae48c
+      internalID: 21300098
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -11, y: 13}
+        - {x: -13, y: 7}
+        - {x: -13, y: -5}
+        - {x: -9, y: -7}
+        - {x: 15, y: -7}
+        - {x: 16, y: -5}
+        - {x: 16, y: 4}
+        - {x: -4, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db905224051e42dda6d38443f8adae1b
+      internalID: 21300100
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_72
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -9, y: 10}
+        - {x: -12, y: 5}
+        - {x: -13, y: -9}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669dbbc61258492ca3529b75c899a413
+      internalID: 21300102
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -4, y: 13}
+        - {x: -12, y: 4}
+        - {x: -12, y: -1}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -1}
+        - {x: 11, y: 4}
+        - {x: 4, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf301d9b72f04568b705f5917ab59207
+      internalID: 21300104
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -11, y: 16}
+        - {x: -12, y: 15}
+        - {x: -12, y: -5}
+        - {x: -10, y: -14}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 8, y: -7}
+        - {x: 13, y: -1}
+        - {x: 13, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b321359904440f948bd553c0486773
+      internalID: 21300106
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 14, y: 12}
+        - {x: -10, y: 12}
+        - {x: -11, y: 9}
+        - {x: -13, y: 0}
+        - {x: -13, y: -16}
+        - {x: 7, y: -16}
+        - {x: 12, y: -14}
+        - {x: 16, y: -9}
+        - {x: 16, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c8fdb473224a0c8aa78d6308e91d42
+      internalID: 21300108
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_54
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -3, y: -9}
+        - {x: -10, y: -11}
+        - {x: -10, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -11}
+        - {x: 15, y: -9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4633a457b51d41b5be56f76d7fb8dba5
+      internalID: 21300110
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_85
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -12, y: 14}
+        - {x: -15, y: 10}
+        - {x: -15, y: 0}
+        - {x: -6, y: -9}
+        - {x: 9, y: -9}
+        - {x: 12, y: -6}
+        - {x: 12, y: 5}
+        - {x: 1, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d3e8b8f92f4e55be26f735815a4962
+      internalID: 21300112
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 6}
+        - {x: 7, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9c006cde3f4a4987c0827563297e53
+      internalID: 21300114
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_74
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -13}
+        - {x: 14, y: -1}
+        - {x: -9, y: -1}
+        - {x: -16, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9254cef2bae84c4095e53758c2a25fa9
+      internalID: 21300116
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_79
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 8, y: 13}
+        - {x: -4, y: 13}
+        - {x: -16, y: 7}
+        - {x: -16, y: -5}
+        - {x: -10, y: -7}
+        - {x: 10, y: -7}
+        - {x: 13, y: -5}
+        - {x: 13, y: 4}
+        - {x: 12, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c558f005d74cf993f96a7fb2380939
+      internalID: 21300118
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -2}
+        - {x: -10, y: -5}
+        - {x: -6, y: -7}
+        - {x: 6, y: -7}
+        - {x: 15, y: 0}
+        - {x: 15, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b0ce622aed420185b9018e02895066
+      internalID: 21300120
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 11, y: 15}
+        - {x: 10, y: 16}
+        - {x: -5, y: 16}
+        - {x: -12, y: 9}
+        - {x: -12, y: -4}
+        - {x: -10, y: -14}
+        - {x: -10, y: -16}
+        - {x: 11, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7a49c7f0954ff9a3e6ba44817aacba
+      internalID: 21300122
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 12, y: 16}
+        - {x: -13, y: 16}
+        - {x: -13, y: -1}
+        - {x: -10, y: -16}
+        - {x: 11, y: -16}
+        - {x: 8, y: 0}
+        - {x: 12, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f88fd1665747cc8897c7c44d5894ac
+      internalID: 21300124
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_76
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 0, y: 13}
+        - {x: -8, y: 13}
+        - {x: -13, y: 7}
+        - {x: -13, y: -7}
+        - {x: 11, y: -7}
+        - {x: 15, y: -4}
+        - {x: 15, y: 1}
+        - {x: 14, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b94faa81c34fbbbaab71ed9dc1c40e
+      internalID: 21300126
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_86
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 13, y: 10}
+        - {x: -7, y: 14}
+        - {x: -9, y: 14}
+        - {x: -15, y: 7}
+        - {x: -15, y: 0}
+        - {x: -7, y: -7}
+        - {x: 4, y: -7}
+        - {x: 12, y: -2}
+        - {x: 15, y: 1}
+        - {x: 15, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0519cd9f3034548a9c09540e65aa59c
+      internalID: 21300128
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_52
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 6, y: 15}
+        - {x: -7, y: 15}
+        - {x: -11, y: 13}
+        - {x: -13, y: 10}
+        - {x: -13, y: -2}
+        - {x: -12, y: -8}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -4}
+        - {x: 13, y: 7}
+        - {x: 12, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9fc19683834c5a836f3abd827ca59a
+      internalID: 21300130
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -9, y: 6}
+        - {x: -16, y: -5}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -7}
+        - {x: 12, y: 5}
+        - {x: 7, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72585d042ed94f688e644301238a5a43
+      internalID: 21300132
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 3, y: 14}
+        - {x: -5, y: 14}
+        - {x: -12, y: 9}
+        - {x: -12, y: 2}
+        - {x: -8, y: -7}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 9, y: -14}
+        - {x: 11, y: -1}
+        - {x: 11, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c670e3044b4e1f830a69416bffb10f
+      internalID: 21300134
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_56
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -5, y: 16}
+        - {x: -11, y: 9}
+        - {x: -11, y: -16}
+        - {x: 11, y: -16}
+        - {x: 12, y: -11}
+        - {x: 12, y: 6}
+        - {x: 7, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949f46eb51db432e94b655d4782a6349
+      internalID: 21300136
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_62
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 6, y: 15}
+        - {x: -7, y: 15}
+        - {x: -11, y: 13}
+        - {x: -13, y: 10}
+        - {x: -13, y: -2}
+        - {x: -12, y: -8}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -4}
+        - {x: 13, y: 7}
+        - {x: 12, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aab6fa562e4449c84631446e8732e16
+      internalID: 21300138
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_80
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -15, y: 13}
+        - {x: -15, y: 0}
+        - {x: -8, y: -7}
+        - {x: 5, y: -7}
+        - {x: 14, y: -5}
+        - {x: 15, y: -1}
+        - {x: 15, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52782ce594c946a7ad6ca9a9268b36dc
+      internalID: 21300140
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 13, y: 9}
+        - {x: 5, y: 16}
+        - {x: -5, y: 16}
+        - {x: -13, y: 8}
+        - {x: -13, y: -12}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -13}
+        - {x: 13, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14590bd069804b3894328348ec69f088
+      internalID: 21300142
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_60
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 14, y: 16}
+        - {x: -15, y: 16}
+        - {x: -15, y: 8}
+        - {x: -11, y: -16}
+        - {x: 11, y: -16}
+        - {x: 15, y: 0}
+        - {x: 15, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27eb2737c24428abeba9ebcc948ce6a
+      internalID: 21300144
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -6, y: 13}
+        - {x: -11, y: 9}
+        - {x: -11, y: -14}
+        - {x: -9, y: -16}
+        - {x: 10, y: -16}
+        - {x: 12, y: -8}
+        - {x: 12, y: 2}
+        - {x: 7, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e9879475134f79907da8d9a1bf7b3e
+      internalID: 21300146
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_83
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -14, y: 14}
+        - {x: -15, y: 13}
+        - {x: -15, y: 0}
+        - {x: -12, y: -7}
+        - {x: 8, y: -7}
+        - {x: 15, y: -4}
+        - {x: 15, y: 9}
+        - {x: 8, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13b4651e1304087be4e55c482abdc2e
+      internalID: 21300148
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_63
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 11, y: 5}
+        - {x: 11, y: 15}
+        - {x: 7, y: 16}
+        - {x: -12, y: 16}
+        - {x: -12, y: -2}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: -14}
+        - {x: 8, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204001b95306477d9cf6a7e8579e4cb5
+      internalID: 21300150
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 2, y: 14}
+        - {x: -5, y: 14}
+        - {x: -13, y: 6}
+        - {x: -13, y: 0}
+        - {x: -11, y: -5}
+        - {x: -6, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -6}
+        - {x: 13, y: 6}
+        - {x: 6, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8afe10b9d2448ba5ace7114d480559
+      internalID: 21300152
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_82
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 13, y: 10}
+        - {x: -8, y: 13}
+        - {x: -10, y: 13}
+        - {x: -11, y: 10}
+        - {x: -12, y: -2}
+        - {x: -12, y: -3}
+        - {x: -8, y: -9}
+        - {x: -1, y: -9}
+        - {x: 5, y: -8}
+        - {x: 12, y: -2}
+        - {x: 15, y: 1}
+        - {x: 15, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799ab0572a554e2782d668f25ca6e346
+      internalID: 21300154
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_84
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -15, y: 14}
+        - {x: -15, y: -3}
+        - {x: -7, y: -7}
+        - {x: 12, y: -7}
+        - {x: 14, y: -1}
+        - {x: 14, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe425dc2d4d4f80b823af6a80717ea7
+      internalID: 21300156
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 10, y: 16}
+        - {x: -11, y: 16}
+        - {x: -11, y: 9}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -6}
+        - {x: 11, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98886777cd8d4462b55c3a4c9d0ff789
+      internalID: 21300158
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 6, y: 12}
+        - {x: 2, y: 14}
+        - {x: -6, y: 14}
+        - {x: -13, y: 7}
+        - {x: -13, y: 0}
+        - {x: -11, y: -4}
+        - {x: -8, y: -16}
+        - {x: 5, y: -16}
+        - {x: 12, y: -10}
+        - {x: 13, y: -2}
+        - {x: 13, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25a8c9d0c6947fcb7a5b7beb27d79ae
+      internalID: 21300160
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -7, y: 6}
+        - {x: -15, y: -4}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -8}
+        - {x: 13, y: 5}
+        - {x: 10, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a210214092a449980d17afa35e0e11a
+      internalID: 21300162
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 6, y: 7}
+        - {x: -9, y: 7}
+        - {x: -16, y: -4}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 12, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e4653e07064a19871be1cca0cbcaf0
+      internalID: 21300164
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 11, y: 13}
+        - {x: 10, y: 16}
+        - {x: -5, y: 16}
+        - {x: -12, y: 8}
+        - {x: -12, y: 3}
+        - {x: -10, y: -1}
+        - {x: -10, y: -16}
+        - {x: 11, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8283c415e9745ca9e4c62fc895bbfaa
+      internalID: 21300166
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 5, y: 16}
+        - {x: -7, y: 16}
+        - {x: -13, y: 7}
+        - {x: -13, y: -3}
+        - {x: -9, y: -11}
+        - {x: -3, y: -13}
+        - {x: -1, y: -9}
+        - {x: -1, y: -6}
+        - {x: -1, y: -8}
+        - {x: -2, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: -14}
+        - {x: 13, y: 2}
+        - {x: 13, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a16e5d95494ef293a344255c9bfb50
+      internalID: 21300168
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_64
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: -9, y: -8}
+        - {x: -16, y: -13}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -12}
+        - {x: 11, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4746ad3144804c0b9910daee08c5e60c
+      internalID: 21300170
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 4, y: 13}
+        - {x: -3, y: 13}
+        - {x: -15, y: 4}
+        - {x: -15, y: -7}
+        - {x: 13, y: -7}
+        - {x: 13, y: 3}
+        - {x: 9, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef309f3b929a4f30962f8623e0be0610
+      internalID: 21300172
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartbeat_67
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 7, y: 6}
+        - {x: -7, y: 6}
+        - {x: -15, y: -3}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64527e3f46d048cfa8debb825ffd346d
+      internalID: 21300174
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag:
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

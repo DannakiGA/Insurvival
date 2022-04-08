@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: 8eae81728657377459702a99501239ff
+timeCreated: 1649000005
+licenseType: Free
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: beretta_2
+  - first:
+      213: 21300002
+    second: beretta_0
+  - first:
+      213: 21300004
+    second: beretta_1
+  - first:
+      213: 21300006
+    second: beretta_4
+  externalObjects: {}
+  usedFileIDs: []
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 240
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 288
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beretta_2
+      rect:
+        serializedVersion: 2
+        x: 107.07612
+        y: 0
+        width: 27.884
+        height: 47.948685
+      alignment: 9
+      pivot: {x: 0.46348736, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.018119, y: -23.974342}
+        - {x: -14.018119, y: -2.9743423}
+        - {x: -14.018119, y: 10.025658}
+        - {x: -7.018119, y: 21.025658}
+        - {x: -4.018119, y: 24.025658}
+        - {x: 2.9818811, y: 24.025658}
+        - {x: 13.981881, y: 12.025658}
+        - {x: 13.981881, y: 2.0256577}
+        - {x: 8.981881, y: -6.9743423}
+        - {x: 10.981881, y: -23.974342}
+      physicsShape:
+      - - {x: 13.981881, y: 12.025658}
+        - {x: 2.9818811, y: 24.025658}
+        - {x: -4.018119, y: 24.025658}
+        - {x: -7.018119, y: 21.025658}
+        - {x: -14.018119, y: 10.025658}
+        - {x: -14.018119, y: -2.9743423}
+        - {x: -9.018119, y: -23.974342}
+        - {x: 10.981881, y: -23.974342}
+        - {x: 8.981881, y: -6.9743423}
+        - {x: 3.9818811, y: 3.0256577}
+        - {x: 13.981881, y: 7.0256577}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b7eecaca52406da8b89af2b9ae27b5
+      internalID: 21300000
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beretta_0
+      rect:
+        serializedVersion: 2
+        x: 16.051317
+        y: 0
+        width: 19.87256
+        height: 39.923878
+      alignment: 9
+      pivot: {x: 0.3999828, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.987597, y: -19.961939}
+        - {x: -9.987597, y: -13.961939}
+        - {x: -9.987597, y: 9.038061}
+        - {x: -5.9875975, y: 20.038061}
+        - {x: 0.0124025345, y: 20.038061}
+        - {x: 5.0124025, y: 16.038061}
+        - {x: 10.012403, y: -12.961939}
+        - {x: 10.012403, y: -19.961939}
+      physicsShape:
+      - - {x: 0.0124025345, y: 20.038061}
+        - {x: -5.9875975, y: 20.038061}
+        - {x: -9.987597, y: 9.038061}
+        - {x: -9.987597, y: -13.961939}
+        - {x: -8.987597, y: -19.961939}
+        - {x: 10.012403, y: -19.961939}
+        - {x: 10.012403, y: -12.961939}
+        - {x: 5.0124025, y: 16.038061}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09b22439fb14431856554fc1f6d3b6e
+      internalID: 21300002
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beretta_1
+      rect:
+        serializedVersion: 2
+        x: 64.051315
+        y: 0
+        width: 18.87256
+        height: 36.923878
+      alignment: 9
+      pivot: {x: 0.4211768, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.512404, y: -18.461939}
+        - {x: -9.487596, y: -18.461939}
+        - {x: -9.487596, y: 7.538061}
+        - {x: -5.4875956, y: 18.538061}
+        - {x: 3.5124044, y: 18.538061}
+        - {x: 7.5124044, y: 16.538061}
+        - {x: 9.512404, y: -2.4619389}
+      physicsShape:
+      - - {x: -9.487596, y: -18.461939}
+        - {x: 9.512404, y: -18.461939}
+        - {x: 9.512404, y: -2.4619389}
+        - {x: 7.5124044, y: 16.538061}
+        - {x: 3.5124044, y: 18.538061}
+        - {x: -5.4875956, y: 18.538061}
+        - {x: -9.487596, y: 7.538061}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1d12e669574aa9b6ec8479f99f60fd
+      internalID: 21300004
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beretta_4
+      rect:
+        serializedVersion: 2
+        x: 208.05132
+        y: 0
+        width: 19.711702
+        height: 40.923878
+      alignment: 9
+      pivot: {x: 0.403247, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.0928335, y: -20.461939}
+        - {x: -9.9071665, y: -20.461939}
+        - {x: -9.9071665, y: 18.538061}
+        - {x: -6.9071665, y: 20.538061}
+        - {x: 0.09283352, y: 20.538061}
+        - {x: 5.0928335, y: 18.538061}
+        - {x: 10.0928335, y: -14.461939}
+      physicsShape:
+      - - {x: -9.9071665, y: -20.461939}
+        - {x: 10.0928335, y: -20.461939}
+        - {x: 10.0928335, y: -14.461939}
+        - {x: 5.0928335, y: 18.538061}
+        - {x: 0.09283352, y: 20.538065}
+        - {x: -6.9071665, y: 20.538065}
+        - {x: -9.9071665, y: 18.538061}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f975c8598946d989e2e1592fcb8e4e
+      internalID: 21300006
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag:
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:
