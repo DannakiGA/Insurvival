@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{685E29BD-3607-7AC8-BB0A-24796B98F4C6}</ProjectGuid>
+    <ProjectGuid>{43AF4948-FF26-7D01-CE63-AF2DC67F5115}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -73,8 +73,10 @@
     <Compile Include="Assets\Scripts\Assembly-CSharp\LanguaneChanger.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\Barrel.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\MessageActivator.cs" />
+    <Compile Include="Assets\Scripts\Grunt\ItemBase.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\SaveGame.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\Changer.cs" />
+    <Compile Include="Assets\Scripts\Grunt\PlayerParameters.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\Updater.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\ExperienceFill.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\MachinegunBase.cs" />
@@ -96,6 +98,7 @@
     <Compile Include="Assets\Scripts\Assembly-CSharp\DoorScript.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\BotWeapon.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\CloseMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SaveLoad\SaveLoad.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\RPGHUD.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\ComputerScript.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\RadiationZone.cs" />
@@ -112,11 +115,13 @@
     <Compile Include="Assets\Scripts\Assembly-CSharp\BarrelExplode.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\TextInfo.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\Billboard.cs" />
-    <Compile Include="Assets\Scripts\Grunt\ItemBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shader\DonakiShadersMenuOverlayImageScroll.shader" />
+    <None Include="Assets\Shader\Decal.shader" />
     <None Include="Assets\Shader\DonakiShadersSheild.shader" />
+    <None Include="Assets\Shader\ReflectionGlass.shader" />
+    <None Include="Assets\UI\FishEye.shader" />
     <None Include="Assets\Shader\DonakiShadersMenuImageScrolling.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -756,15 +761,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{07AF1B3B-4DDD-8631-D976-893B2148F160}</Project>
+      <Project>{2989256C-C80D-A11B-CA42-B5588A5A94A4}</Project>
       <Name>Unity.2D.Sprite.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{0C00CEE8-7467-B599-4DCE-71E97BA761CE}</Project>
+      <Project>{A8013568-8891-78E5-CF0D-E167E5EE7991}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{8AC39285-BB23-526A-94E3-5BF1C2FE5FC9}</Project>
+      <Project>{3B16553A-CB93-4E03-6424-FDBA4D231962}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

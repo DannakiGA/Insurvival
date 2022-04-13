@@ -29,8 +29,6 @@ public class BotMelee : EnemyBase
 		{
 			referenceCamera = Camera.main;
 		}
-		InformerScript informerScript = (InformerScript)Object.FindObjectOfType(typeof(InformerScript));
-		GetInfo = informerScript.GetComponent<InformerScript>();
 	}
 
 	public override void Hitting(int Value)
@@ -41,7 +39,7 @@ public class BotMelee : EnemyBase
 		if (Health < 1)
 		{
 			Object.Instantiate(DestroySprite, base.transform.position, Quaternion.identity);
-			Parameters.exp += 15f;
+			//Parameters.exp += 15f;
 			Object.Destroy(base.gameObject);
 		}
 	}
@@ -52,7 +50,7 @@ public class BotMelee : EnemyBase
 		Agent.enabled = false;
 		EnemyAnimator.SetTrigger("isBite");
 		EnemyAudio.PlayOneShot(Attack[Random.Range(0, Attack.Length)]);
-		GetInfo.GetHit(5);
+		GruntSource.Get().SetHealthValue = -5;
 		yield return new WaitForSeconds(BiteTimeBetween);
 		CanBite = !CanBite;
 	}

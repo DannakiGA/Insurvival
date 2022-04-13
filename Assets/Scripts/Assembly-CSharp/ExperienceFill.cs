@@ -27,79 +27,79 @@ public class ExperienceFill : MonoBehaviour
 	private IEnumerator Change()
 	{
 		_trig = false;
-		Parameters.Level++;
-		Parameters.exp = 0f;
-		Parameters.PointExpir++;
+		GruntSource.Get().SetCurrentLevel = 1;
+		GruntSource.Get().ExperienceToZero();
+		//Parameters.PointExpir++;
 		yield return new WaitForSeconds(0.2f);
 		_trig = true;
-		Swaper.CallMenu();
+		//Swaper.CallMenu();
 		Hero.GetMouse();
 	}
 
 	private void Update()
 	{
-		Self.value = Parameters.exp / Parameters.max_exp;
+		Self.value = GruntSource.Get().GetExperience / GruntSource.Get().MaxExperienceValue;
 		switch (Parameters.Level)
 		{
 		case 1:
-			Parameters.max_exp = 120f;
+			GruntSource.Get().MaxExperienceValue = 120;
 			break;
 		case 2:
-			Parameters.max_exp = 230f;
+			GruntSource.Get().MaxExperienceValue = 230;
 			break;
 		case 3:
-			Parameters.max_exp = 360f;
+			GruntSource.Get().MaxExperienceValue = 360;
 			break;
 		case 4:
-			Parameters.max_exp = 480f;
+			GruntSource.Get().MaxExperienceValue = 480;
 			break;
 		case 5:
-			Parameters.max_exp = 510f;
+			GruntSource.Get().MaxExperienceValue = 510;
 			break;
 		case 6:
-			Parameters.max_exp = 870f;
+			GruntSource.Get().MaxExperienceValue = 870;
 			break;
 		case 7:
-			Parameters.max_exp = 1250f;
+			GruntSource.Get().MaxExperienceValue = 1250;
 			break;
 		case 8:
-			Parameters.max_exp = 1890f;
+			GruntSource.Get().MaxExperienceValue = 1890;
 			break;
 		case 9:
-			Parameters.max_exp = 2400f;
+			GruntSource.Get().MaxExperienceValue = 2400;
 			break;
 		case 10:
-			Parameters.max_exp = 3700f;
+			GruntSource.Get().MaxExperienceValue = 3700;
 			break;
 		case 11:
-			Parameters.max_exp = 4100f;
+			GruntSource.Get().MaxExperienceValue = 4100;
 			break;
 		case 12:
-			Parameters.max_exp = 5500f;
+			GruntSource.Get().MaxExperienceValue = 5500;
 			break;
 		case 13:
-			Parameters.max_exp = 6490f;
+			GruntSource.Get().MaxExperienceValue = 6490;
 			break;
 		case 14:
-			Parameters.max_exp = 8210f;
+			GruntSource.Get().MaxExperienceValue = 8210;
 			break;
 		case 15:
-			Parameters.max_exp = 9750f;
+			GruntSource.Get().MaxExperienceValue = 9750;
 			break;
 		case 16:
-			Parameters.max_exp = 12000f;
+			GruntSource.Get().MaxExperienceValue = 12000;
 			break;
 		case 17:
-			Parameters.max_exp = 15400f;
+			GruntSource.Get().MaxExperienceValue = 15400;
 			break;
 		case 18:
-			Parameters.max_exp = 45000f;
+			GruntSource.Get().MaxExperienceValue = 45000;
 			break;
 		case 19:
-			Parameters.max_exp = 275400f;
+			GruntSource.Get().MaxExperienceValue = 275400;
 			break;
 		}
-		if (Parameters.exp >= Parameters.max_exp && _trig)
+		if (GruntSource.Get().GetExperience >= GruntSource.Get().MaxExperienceValue && _trig)
 		{
 			StartCoroutine(Change());
 		}

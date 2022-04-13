@@ -31,11 +31,10 @@ public class InformerScript : MonoBehaviour
 		Source = GetComponent<AudioSource>();
 	}
 
-	public void GetHit(int Value)
+	public void GetHit()
 	{
 		ScreenColor = Hit;
 		Source.PlayOneShot(Damage[Random.Range(0, Damage.Length)]);
-		Parameters.Health -= Value;
 	}
 
 	public void GetItem()

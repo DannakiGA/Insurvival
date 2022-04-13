@@ -27,15 +27,15 @@ public class RPGHUD : MonoBehaviour
 			switch (Settings.Language)
 			{
 			case 0:
-				Self.text = "Level:::" + Parameters.Level;
+				Self.text = "Level:::" + GruntSource.Get().GetCurrentLevel;
 				break;
 			case 1:
-				Self.text = "Уровень:::" + Parameters.Level;
+				Self.text = "Уровень:::" + GruntSource.Get().GetCurrentLevel;
 				break;
 			}
 			break;
 		case RPGGUI.ExpInfo:
-			Self.text = $"[{Parameters.exp}[]{Parameters.max_exp}]";
+			Self.text = $"[{GruntSource.Get().GetExperience}[]{Parameters.max_exp}]";
 			break;
 		}
 	}

@@ -28,7 +28,7 @@ public class TextInfo : MonoBehaviour
 		switch (Texts)
 		{
 		case ShowGUI.HealthInfo:
-			Self.text = string.Concat(Parameters.Health);
+			Self.text = GruntSource.Get().GetHealthValue.ToString();
 			break;
 		case ShowGUI.AmmoInfo:
 			switch (Parameters.CurrentWeapon)
@@ -51,7 +51,7 @@ public class TextInfo : MonoBehaviour
 			}
 			break;
 		case ShowGUI.RadiationInfo:
-			Self.text = string.Concat(Parameters.Radiation);
+			Self.text = GruntSource.Get().GetRadiationLevel.ToString();
 			break;
 		case ShowGUI.BandageCount:
 				Self.text = string.Concat(Parameters.Bandage);

@@ -13,7 +13,7 @@ public class Items : MonoBehaviour
 		Bullets,
 		Shells,
 		Pack,
-		Axe,
+		Pipe,
 		Beretta,
 		Double,
 		Sig,
@@ -64,196 +64,196 @@ public class Items : MonoBehaviour
 		{
 		case List.Medkit:
 			Parameters.Medkit++;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up medkit";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали аптечку";
-				break;
-			}
+			//switch (Settings.Language)
+			//{
+			//case 0:
+			//	MessageInBox = "You picked up medkit";
+			//	break;
+			//case 1:
+			//	MessageInBox = "Вы подобрали аптечку";
+			//	break;
+			//}
 			InformationToPlayer();
 			break;
 		case List.Bandage:
 			Parameters.Bandage++;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up bandage";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали бинт";
-				break;
-			}
+			//switch (Settings.Language)
+			//{
+			//case 0:
+			//	MessageInBox = "You picked up bandage";
+			//	break;
+			//case 1:
+			//	MessageInBox = "Вы подобрали бинт";
+			//	break;
+			//}
 			InformationToPlayer();
 			break;
 		case List.StopRad:
 			Parameters.StopRad++;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up StopRad";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали СтопРад";
-				break;
-			}
+			//switch (Settings.Language)
+			//{
+			//case 0:
+			//	MessageInBox = "You picked up StopRad";
+			//	break;
+			//case 1:
+			//	MessageInBox = "Вы подобрали СтопРад";
+			//	break;
+			//}
 			InformationToPlayer();
 			break;
 		case List.MutatorSpeed:
 			Parameters.AddSpeed++;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up serum of speed";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали сыворотку скорости";
-				break;
-			}
+			//switch (Settings.Language)
+			//{
+			//case 0:
+			//	MessageInBox = "You picked up serum of speed";
+			//	break;
+			//case 1:
+			//	MessageInBox = "Вы подобрали сыворотку скорости";
+			//	break;
+			//}
 			InformationToPlayer();
 			break;
 		case List.MutatorHealth:
 			Parameters.AddHealth++;
 			Parameters.Health = Parameters.Max + Parameters.AddHealth;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up serum of resistance";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали сыворотку устойчивости";
-				break;
-			}
+			//switch (Settings.Language)
+			//{
+			//case 0:
+			//	MessageInBox = "You picked up serum of resistance";
+			//	break;
+			//case 1:
+			//	MessageInBox = "Вы подобрали сыворотку устойчивости";
+			//	break;
+			//}
 			InformationToPlayer();
 			break;
 		case List.MutatorDamage:
 			Parameters.AddDamage++;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up serum of gain";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали сыворотку усиления";
-				break;
-			}
+                //switch (Settings.Language)
+                //{
+                //case 0:
+                //	MessageInBox = "You picked up serum of gain";
+                //	break;
+                //case 1:
+                //	MessageInBox = "Вы подобрали сыворотку усиления";
+                //	break;
+                //}
 			InformationToPlayer();
 			break;
 		case List.Bullets:
 			Parameters.ammo_chaingun += 12;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up small-caliber ammunition: 12";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали патроны мелкого калибра: 12";
-				break;
-			}
+			//switch (Settings.Language)
+			//{
+			//case 0:
+			//	MessageInBox = "You picked up small-caliber ammunition: 12";
+			//	break;
+			//case 1:
+			//	MessageInBox = "Вы подобрали патроны мелкого калибра: 12";
+			//	break;
+			//}
 			InformationToPlayer();
 			break;
 		case List.Shells:
 			Parameters.ammo_shotgun += 8;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up a shotgun ammunition: 8";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали патроны для ружья: 8";
-				break;
-			}
+			//switch (Settings.Language)
+			//{
+			//case 0:
+			//	MessageInBox = "You picked up a shotgun ammunition: 8";
+			//	break;
+			//case 1:
+			//	MessageInBox = "Вы подобрали патроны для ружья: 8";
+			//	break;
+			//}
 			InformationToPlayer();
 			break;
 		case List.Pack:
 			Parameters.ammo_minigun += 120;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up large-caliber ammunition: 120";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали патроны крупного калибра: 120";
-				break;
-			}
+			//switch (Settings.Language)
+			//{
+			//case 0:
+			//	MessageInBox = "You picked up large-caliber ammunition: 120";
+			//	break;
+			//case 1:
+			//	MessageInBox = "Вы подобрали патроны крупного калибра: 120";
+			//	break;
+			//}
 			InformationToPlayer();
 			break;
-		case List.Axe:
-			Parameters.weapon_axe = true;
-			Parameters.CurrentWeapon = 0;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up pipe how weapon";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали трубу как оружие";
-				break;
-			}
+		case List.Pipe:
+				GruntSource.Get().AddWeaponOrAmmo(Weapons.Pipe, 0);
+				GruntSource.Get().CurrentWeaponInHands = Weapons.Pipe;
+			//switch (Settings.Language)
+			//{
+			//case 0:
+			//	MessageInBox = "You picked up pipe how weapon";
+			//	break;
+			//case 1:
+			//	MessageInBox = "Вы подобрали трубу как оружие";
+			//	break;
+			//}
 			InformationToPlayer();
-			Refresh.UpdateWeapon();
+			Refresh.UpdateWeapon(GruntSource.Get().CurrentWeaponInHands);
 			break;
 		case List.Beretta:
-			Parameters.weapon_beretta = true;
-			Parameters.CurrentWeapon = 1;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up Beretta";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали Беретту";
-				break;
-			}
-			InformationToPlayer();
-			Refresh.UpdateWeapon();
+				GruntSource.Get().AddWeaponOrAmmo(Weapons.Gun12mm, 8);
+				GruntSource.Get().CurrentWeaponInHands = Weapons.Gun12mm;
+				//switch (Settings.Language)
+				//{
+				//case 0:
+				//	MessageInBox = "You picked up Beretta";
+				//	break;
+				//case 1:
+				//	MessageInBox = "Вы подобрали Беретту";
+				//	break;
+				//}
+				InformationToPlayer();
+				Refresh.UpdateWeapon(GruntSource.Get().CurrentWeaponInHands);
 			break;
 		case List.Double:
 			Parameters.weapon_double = true;
 			Parameters.CurrentWeapon = 2;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up Double-bar";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали Двухстволку";
-				break;
-			}
+			//switch (Settings.Language)
+			//{
+			//case 0:
+			//	MessageInBox = "You picked up Double-bar";
+			//	break;
+			//case 1:
+			//	MessageInBox = "Вы подобрали Двухстволку";
+			//	break;
+			//}
 			InformationToPlayer();
-			Refresh.UpdateWeapon();
+			Refresh.UpdateWeapon(GruntSource.Get().CurrentWeaponInHands);
 			break;
 		case List.Sig:
 			Parameters.weapon_sig = true;
 			Parameters.CurrentWeapon = 3;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up SIG";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали SIG";
-				break;
-			}
+			//switch (Settings.Language)
+			//{
+			//case 0:
+			//	MessageInBox = "You picked up SIG";
+			//	break;
+			//case 1:
+			//	MessageInBox = "Вы подобрали SIG";
+			//	break;
+			//}
 			InformationToPlayer();
-			Refresh.UpdateWeapon();
+			Refresh.UpdateWeapon(GruntSource.Get().CurrentWeaponInHands);
 			break;
 		case List.Minigun:
 			Parameters.weapon_minigun = true;
 			Parameters.CurrentWeapon = 4;
-			switch (Settings.Language)
-			{
-			case 0:
-				MessageInBox = "You picked up minigun";
-				break;
-			case 1:
-				MessageInBox = "Вы подобрали миниган";
-				break;
-			}
+			//switch (Settings.Language)
+			//{
+			//case 0:
+			//	MessageInBox = "You picked up minigun";
+			//	break;
+			//case 1:
+			//	MessageInBox = "Вы подобрали миниган";
+			//	break;
+			//}
 			InformationToPlayer();
-			Refresh.UpdateWeapon();
+			Refresh.UpdateWeapon(GruntSource.Get().CurrentWeaponInHands);
 			break;
 		}
 	}

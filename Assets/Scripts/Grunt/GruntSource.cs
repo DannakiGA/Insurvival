@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public enum Weapons
@@ -8,7 +7,8 @@ public enum Weapons
     Gun12mm,
     Double,
     Sig,
-    Minigun
+    Minigun,
+    None
 }
 
 public enum Ammunition
@@ -25,119 +25,10 @@ public enum GruntProperty
     SpeedBonus
 }
 
-[System.Serializable]
-public class PlayerParameters
-{
-    Weapons weapon; //Which a type of weapon in the hands;
-    List<ItemBase<Weapons>> weapons = new List<ItemBase<Weapons>>();
-    List<ItemBase<Ammunition>> ammunitions = new List<ItemBase<Ammunition>>();
-    List<ItemBase<GruntProperty>> properties = new List<ItemBase<GruntProperty>>();
-
-    Vector3 positinon;
-    Quaternion rotation;
-    int radiationLevel;
-    int health;
-    int maxHealth;
-    int experience;
-    int currentLevel;
-
-    public int Health { 
-        get 
-        { 
-            return health; 
-        } 
-
-        set
-        {
-            if(value > maxHealth)
-            {
-                health = maxHealth;
-            }
-        }
-    }
-    public int RadiationLevel { get { return radiationLevel; } }
-    public int Experience { get { return experience; } }
-    public int CurrentLevel { get { return currentLevel; } }
-    public Weapons Weapon
-    {
-        get
-        {
-            return weapon;
-        }
-
-        set
-        {
-            weapon = value;
-        }
-    }
-
-
-    public void Start(Vector3 startposition, Quaternion startrotation)
-    {
-        positinon = startposition;
-        rotation = startrotation;
-        health = 70;
-        maxHealth = 100;
-        experience = 0;
-        currentLevel = 0;
-        radiationLevel = 0;
-    }
-
-    public void LoadPlayer(PlayerParameters loadedPlayer)
-    {
-        weapon = loadedPlayer.weapon;
-        weapons = loadedPlayer.weapons;
-        ammunitions = loadedPlayer.ammunitions;
-        properties = loadedPlayer.properties;
-        positinon = loadedPlayer.positinon;
-        rotation = loadedPlayer.rotation;
-        radiationLevel = loadedPlayer.radiationLevel;
-        health = loadedPlayer.health;
-        maxHealth = loadedPlayer.maxHealth;
-        experience = loadedPlayer.experience;
-        currentLevel = loadedPlayer.currentLevel;
-    }
-
-    //public void AddWeapon(Weapons weapon, int ammo)
-    //{
-    //    if(weapons.Contains(ItemBase<Weapons>))
-    //    {
-            
-    //    }else
-    //    {
-    //        weapons.Add(new ItemBase<Weapons>(weapon, ammo));
-    //    }
-    //}
-
-    //public void AddAmmunition(Ammunition ammunition, int count)
-    //{
-    //    if (this.ammunition.ContainsKey(ammunition))
-    //    {
-    //        int counts = 0;
-    //        this.ammunition.TryGetValue(ammunition, out counts);
-    //        counts += count;
-    //        this.ammunition.Add(ammunition, counts);
-    //    }
-    //    else
-    //    {
-    //        this.ammunition.Add(ammunition, count);
-    //    }
-    //}
-}
-
 public class GruntSource
 {
     static GruntSource Instance;
     PlayerParameters player = new PlayerParameters();
-
-    public PlayerParameters Player
-    {
-        get
-        {
-            return player;
-        }
-    }
-
     public static GruntSource Get()
     {
         if(Instance == null)
@@ -147,14 +38,57 @@ public class GruntSource
         return Instance;
     }
 
+    //Return the player for save;
+    public PlayerParameters Player
+    {
+        get
+        {
+            return player;
+        }
+
+        set
+        {
+            player.LoadPlayer(value);
+            Debug.Log("Loading");
+        }
+    }
+
+    public Action<Vector3, Quaternion> onPlayerPositionChange;
+    public Vector3 onPlayerPosition;
+    public Quaternion onPlayerRotation;
+
     public void StartPlayer(Vector3 startposition, Quaternion startrotation) //Then a game started; new game;
     {
         player.Start(startposition, startrotation);
     }
 
-    public int ReturnHealthValue() => player.Health;
-    public int ReturnRadiationLevel() => player.RadiationLevel;
-    public int ReturnExperience() => player.Experience;
-    public int ReturnCurrentLevel() => player.CurrentLevel;
+    //Get some value of grunt (like rpg);
+    public int GetHealthValue { get { return player.Health; } }
+    public int GetRadiationLevel { get { return player.RadiationLevel; } }
+    public int GetExperience { get { return player.Experience; } }
+    public int GetCurrentLevel { get { return player.CurrentLevel; } }
 
+    //Set some value of grunt;
+    public int SetHealthValue { set { player.Health = value; } }
+    public int SetRadiationLevel { set { player.RadiationLevel = value; } }
+    public int SetExperience { set { player.Experience = value; } }
+    public int SetCurrentLevel { set { player.CurrentLevel = value; } }
+
+    public int MaxExperienceValue { get { return player.MaxExperience; } set { player.MaxExperience = value; } }
+
+    //Weapon;
+    public void AddWeaponOrAmmo(Weapons weapon, int ammo) => player.AddWeapon(weapon, ammo);
+    public void SubstractAmmo(Weapons weapon, int ammo) => player.SubtractAmmo(weapon, ammo);
+    public Weapons CurrentWeaponInHands { get { return player.Weapon; } set { player.Weapon = value; } }
+
+    //Ammunition;
+    public void AddItemToInventory(Ammunition ammunition, int count) => player.AddAmmunition(ammunition, count);
+    public void SubstractAmmunition(Ammunition ammunition, int count) => player.SubtractAmmunition(ammunition, count);
+
+    //Stats(properties);
+    public void UpdateProperty(GruntProperty property, int count) => player.AddProperty(property, count);
+
+    //Set to zero some experience and some radiation;
+    public void RadiationToZero() => player.ToZeroRadiation();
+    public void ExperienceToZero() => player.ToZeroExperience();
 }

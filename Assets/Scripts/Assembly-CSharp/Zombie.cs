@@ -36,8 +36,6 @@ public class Zombie : EnemyBase
 		{
 			referenceCamera = Camera.main;
 		}
-		InformerScript informerScript = (InformerScript)Object.FindObjectOfType(typeof(InformerScript));
-		GetInfo = informerScript.GetComponent<InformerScript>();
 	}
 
 	public override void Hitting(int Value)
@@ -71,7 +69,7 @@ public class Zombie : EnemyBase
 		Agent.enabled = false;
 		EnemyAnimator.SetTrigger("isBite");
 		EnemyAudio.PlayOneShot(Attack[Random.Range(0, Attack.Length)]);
-		GetInfo.GetHit(2 + AddedDamage);
+		GruntSource.Get().SetHealthValue = -(2 + AddedDamage);
 		yield return new WaitForSeconds(BiteTimeBetween);
 		CanBite = true;
 	}

@@ -2,20 +2,11 @@ using UnityEngine;
 
 public class BarrelExplode : MonoBehaviour
 {
-	[HideInInspector]
-	public InformerScript GetInfo;
-
-	private void Start()
-	{
-		InformerScript informerScript = (InformerScript)Object.FindObjectOfType(typeof(InformerScript));
-		GetInfo = informerScript.GetComponent<InformerScript>();
-	}
-
 	private void OnTriggerEnter(Collider other)
 	{
 		if (other.tag == "Player")
 		{
-			GetInfo.GetHit(25);
+			GruntSource.Get().SetHealthValue = -25;
 		}
 		if (other.tag == "Robot")
 		{

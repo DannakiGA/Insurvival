@@ -8,13 +8,8 @@ public class Bullets : MonoBehaviour
 
 	private Camera referenceCamera;
 
-	[HideInInspector]
-	public InformerScript Notification;
-
 	private void Start()
 	{
-		InformerScript informerScript = (InformerScript)Object.FindObjectOfType(typeof(InformerScript));
-		Notification = informerScript.GetComponent<InformerScript>();
 		if (!referenceCamera)
 		{
 			referenceCamera = Camera.main;
@@ -39,7 +34,7 @@ public class Bullets : MonoBehaviour
 	{
 		if (other.tag == "Player")
 		{
-			Notification.GetHit(24);
+			GruntSource.Get().SetHealthValue = -22;
 			Object.Destroy(base.gameObject);
 		}
 	}

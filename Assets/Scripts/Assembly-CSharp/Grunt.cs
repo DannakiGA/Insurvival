@@ -32,6 +32,10 @@ public class Grunt : MonoBehaviour
 		Source = GetComponent<AudioSource>();
 		SetCursorLock(true);
 		Speed = 6 + Parameters.AddSpeed;
+
+		GruntSource.Get().onPlayerPositionChange += PlayerPositionChange;
+		GruntSource.Get().onPlayerPosition = PlayerPosition;
+		GruntSource.Get().onPlayerRotation = PlayerRotation;
 	}
 
 	private void SetCursorLock(bool IsLocked)
@@ -86,6 +90,30 @@ public class Grunt : MonoBehaviour
 		StartCoroutine(CollisionOff());
 		base.transform.position = TeleportPosition;
 	}
+
+	void PlayerPositionChange(Vector3 position, Quaternion rotation)
+	{
+		StartCoroutine(CollisionOff());
+		transform.position = position;
+		transform.rotation = rotation;
+	}
+
+	Vector3 PlayerPosition
+    {
+        get
+        {
+			return transform.position;
+
+		}
+    }
+
+	Quaternion PlayerRotation
+    {
+		get
+        {
+			return transform.rotation;
+        }
+    }
 
 	private void GetMove()
 	{

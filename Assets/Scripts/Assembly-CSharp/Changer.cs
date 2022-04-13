@@ -3,87 +3,79 @@ using UnityEngine;
 
 public class Changer : MonoBehaviour
 {
-	public GameObject[] Weapons;
+	public GameObject[] WeaponsModel;
 
-	private void Start()
+	private IEnumerator ChangeWeapon(Weapons weapon)
 	{
-		StartCoroutine(ChangeWeapon());
-	}
-
-	private IEnumerator ChangeWeapon()
-	{
-		switch (Parameters.CurrentWeapon)
+		switch (weapon)
 		{
-		case 0:
-			Weapons[0].SetActive(true);
-			Weapons[1].SetActive(false);
-			Weapons[2].SetActive(false);
-			Weapons[3].SetActive(false);
-			Weapons[4].SetActive(false);
-			break;
-		case 1:
-			Weapons[0].SetActive(false);
-			Weapons[1].SetActive(true);
-			Weapons[2].SetActive(false);
-			Weapons[3].SetActive(false);
-			Weapons[4].SetActive(false);
-			break;
-		case 2:
-			Weapons[0].SetActive(false);
-			Weapons[1].SetActive(false);
-			Weapons[2].SetActive(true);
-			Weapons[3].SetActive(false);
-			Weapons[4].SetActive(false);
-			break;
-		case 3:
-			Weapons[0].SetActive(false);
-			Weapons[1].SetActive(false);
-			Weapons[2].SetActive(false);
-			Weapons[3].SetActive(true);
-			Weapons[4].SetActive(false);
-			break;
-		case 4:
-			Weapons[0].SetActive(false);
-			Weapons[1].SetActive(false);
-			Weapons[2].SetActive(false);
-			Weapons[3].SetActive(false);
-			Weapons[4].SetActive(true);
-			break;
+			case Weapons.Pipe:
+				WeaponsModel[0].SetActive(true);
+				WeaponsModel[1].SetActive(false);
+				WeaponsModel[2].SetActive(false);
+				WeaponsModel[3].SetActive(false);
+				WeaponsModel[4].SetActive(false);
+				break;
+			case Weapons.Gun12mm:
+				WeaponsModel[0].SetActive(false);
+				WeaponsModel[1].SetActive(true);
+				WeaponsModel[2].SetActive(false);
+				WeaponsModel[3].SetActive(false);
+				WeaponsModel[4].SetActive(false);
+				break;
+			case Weapons.Double:
+				WeaponsModel[0].SetActive(false);
+				WeaponsModel[1].SetActive(false);
+				WeaponsModel[2].SetActive(true);
+				WeaponsModel[3].SetActive(false);
+				WeaponsModel[4].SetActive(false);
+				break;
+			case Weapons.Sig:
+				WeaponsModel[0].SetActive(false);
+				WeaponsModel[1].SetActive(false);
+				WeaponsModel[2].SetActive(false);
+				WeaponsModel[3].SetActive(true);
+				WeaponsModel[4].SetActive(false);
+				break;
+			case Weapons.Minigun:
+				WeaponsModel[0].SetActive(false);
+				WeaponsModel[1].SetActive(false);
+				WeaponsModel[2].SetActive(false);
+				WeaponsModel[3].SetActive(false);
+				WeaponsModel[4].SetActive(true);
+				break;
 		}
 		yield return new WaitForSeconds(0.1f);
 	}
 
-	public void UpdateWeapon()
+	public void UpdateWeapon(Weapons weapon)
 	{
-		StartCoroutine(ChangeWeapon());
+		StartCoroutine(ChangeWeapon(weapon));
 	}
 
 	private void Update()
 	{
-		if (Input.GetKey(KeyCode.Alpha1) && Parameters.weapon_axe)
+		UpdateWeapon(GruntSource.Get().CurrentWeaponInHands);
+
+		if (Input.GetKey(KeyCode.Alpha1) && GruntSource.Get().CurrentWeaponInHands == Weapons.Gun12mm)
 		{
-			Parameters.CurrentWeapon = 0;
-			StartCoroutine(ChangeWeapon());
+			StartCoroutine(ChangeWeapon(GruntSource.Get().CurrentWeaponInHands));
 		}
-		if (Input.GetKey(KeyCode.Alpha2) && Parameters.weapon_beretta)
+		if (Input.GetKey(KeyCode.Alpha2) && GruntSource.Get().CurrentWeaponInHands == Weapons.Gun12mm)
 		{
-			Parameters.CurrentWeapon = 1;
-			StartCoroutine(ChangeWeapon());
+			StartCoroutine(ChangeWeapon(GruntSource.Get().CurrentWeaponInHands));
 		}
 		if (Input.GetKey(KeyCode.Alpha3) && Parameters.weapon_double)
 		{
-			Parameters.CurrentWeapon = 2;
-			StartCoroutine(ChangeWeapon());
+			StartCoroutine(ChangeWeapon(GruntSource.Get().CurrentWeaponInHands));
 		}
 		if (Input.GetKey(KeyCode.Alpha4) && Parameters.weapon_sig)
 		{
-			Parameters.CurrentWeapon = 3;
-			StartCoroutine(ChangeWeapon());
+			StartCoroutine(ChangeWeapon(GruntSource.Get().CurrentWeaponInHands));
 		}
 		if (Input.GetKey(KeyCode.Alpha5) && Parameters.weapon_minigun)
 		{
-			Parameters.CurrentWeapon = 4;
-			StartCoroutine(ChangeWeapon());
+			StartCoroutine(ChangeWeapon(GruntSource.Get().CurrentWeaponInHands));
 		}
 	}
 }
