@@ -12,38 +12,38 @@ public class Changer : MonoBehaviour
 			case Weapons.Pipe:
 				WeaponsModel[0].SetActive(true);
 				WeaponsModel[1].SetActive(false);
-				WeaponsModel[2].SetActive(false);
-				WeaponsModel[3].SetActive(false);
-				WeaponsModel[4].SetActive(false);
+				//WeaponsModel[2].SetActive(false);
+				//WeaponsModel[3].SetActive(false);
+				//WeaponsModel[4].SetActive(false);
 				break;
 			case Weapons.Gun12mm:
 				WeaponsModel[0].SetActive(false);
 				WeaponsModel[1].SetActive(true);
-				WeaponsModel[2].SetActive(false);
-				WeaponsModel[3].SetActive(false);
-				WeaponsModel[4].SetActive(false);
+				//WeaponsModel[2].SetActive(false);
+				//WeaponsModel[3].SetActive(false);
+				//WeaponsModel[4].SetActive(false);
 				break;
-			case Weapons.Double:
-				WeaponsModel[0].SetActive(false);
-				WeaponsModel[1].SetActive(false);
-				WeaponsModel[2].SetActive(true);
-				WeaponsModel[3].SetActive(false);
-				WeaponsModel[4].SetActive(false);
-				break;
-			case Weapons.Sig:
-				WeaponsModel[0].SetActive(false);
-				WeaponsModel[1].SetActive(false);
-				WeaponsModel[2].SetActive(false);
-				WeaponsModel[3].SetActive(true);
-				WeaponsModel[4].SetActive(false);
-				break;
-			case Weapons.Minigun:
-				WeaponsModel[0].SetActive(false);
-				WeaponsModel[1].SetActive(false);
-				WeaponsModel[2].SetActive(false);
-				WeaponsModel[3].SetActive(false);
-				WeaponsModel[4].SetActive(true);
-				break;
+			//case Weapons.Double:
+			//	WeaponsModel[0].SetActive(false);
+			//	WeaponsModel[1].SetActive(false);
+			//	WeaponsModel[2].SetActive(true);
+			//	WeaponsModel[3].SetActive(false);
+			//	WeaponsModel[4].SetActive(false);
+			//	break;
+			//case Weapons.Sig:
+			//	WeaponsModel[0].SetActive(false);
+			//	WeaponsModel[1].SetActive(false);
+			//	WeaponsModel[2].SetActive(false);
+			//	WeaponsModel[3].SetActive(true);
+			//	WeaponsModel[4].SetActive(false);
+			//	break;
+			//case Weapons.Minigun:
+			//	WeaponsModel[0].SetActive(false);
+			//	WeaponsModel[1].SetActive(false);
+			//	WeaponsModel[2].SetActive(false);
+			//	WeaponsModel[3].SetActive(false);
+			//	WeaponsModel[4].SetActive(true);
+			//	break;
 		}
 		yield return new WaitForSeconds(0.1f);
 	}

@@ -3,86 +3,71 @@ using UnityEngine;
 
 public class Grunt : MonoBehaviour
 {
-	[HideInInspector]
+	const float gravitySpeed = 0.5f;
+
 	public float Speed;
-
-	[HideInInspector]
-	public Vector3 Remove;
-
+	public float MouseSensitivity;
 	public Camera HeroHead;
+	public LayerMask Mask;
 
-	[HideInInspector]
-	public float MouseSensitiv;
+	bool isTeleported;
+	bool grounded;
+	CharacterController controller;
+	float rotateAmountX;
+	float rotateAmountY;
+	Vector3 moveVector;
+	RaycastHit hitInfo;
 
-	public bool IsLocked;
+	Vector3 playerPosition => transform.position;
+	Quaternion playerRotation => transform.rotation;
 
-	private bool isTeleported;
-
-	private CharacterController Controller;
-
-	private float RotateAmountX;
-
-	private float RotateAmountY;
-
-	private AudioSource Source;
-
-	private void Start()
+	void Start()
 	{
-		Controller = GetComponent<CharacterController>();
-		Source = GetComponent<AudioSource>();
-		SetCursorLock(true);
+		controller = GetComponent<CharacterController>();
+		//Source = GetComponent<AudioSource>();
+		CursorLock(true);
 		Speed = 6 + Parameters.AddSpeed;
 
 		GruntSource.Get().onPlayerPositionChange += PlayerPositionChange;
-		GruntSource.Get().onPlayerPosition = PlayerPosition;
-		GruntSource.Get().onPlayerRotation = PlayerRotation;
+		GruntSource.Get().onPlayerPosition = playerPosition;
+		GruntSource.Get().onPlayerRotation = playerRotation;
 	}
 
-	private void SetCursorLock(bool IsLocked)
+	void CursorLock(bool state)
 	{
-		this.IsLocked = IsLocked;
-		Screen.lockCursor = IsLocked;
-		Cursor.visible = !IsLocked;
+		Cursor.visible = !state;
+		switch(state)
+        {
+			case true:
+				Cursor.lockState = CursorLockMode.Locked;
+				break;
+			case false:
+				Cursor.lockState = CursorLockMode.None;
+				break;
+		}
 	}
 
 	public void GetMouse()
 	{
-		SetCursorLock(!IsLocked);
+		//SetCursorLock(!IsLocked);
 	}
 
-	private void Rotate()
+	void Rotate()
 	{
-		if (Input.GetKeyUp(KeyCode.Escape) && !Parameters.Pause)
-		{
-			SetCursorLock(!IsLocked);
-		}
-		RotateAmountX += Input.GetAxis("Mouse X") * MouseSensitiv * Time.deltaTime;
-		if (RotateAmountY > 60f)
-		{
-			RotateAmountY = 60f;
-		}
-		if (RotateAmountY < -60f)
-		{
-			RotateAmountY = -60f;
-		}
-		base.transform.rotation = Quaternion.Euler(base.transform.rotation.eulerAngles.x, RotateAmountX, 0f);
-		if (IsLocked)
-		{
-			MouseSensitiv = Settings.Mouse;
-		}
-		else
-		{
-			MouseSensitiv = 0f;
-		}
+		rotateAmountX += Input.GetAxis("Mouse X") * MouseSensitivity * Time.deltaTime;
+		rotateAmountY += Input.GetAxis("Mouse Y") * MouseSensitivity * Time.deltaTime;
+		rotateAmountY = Mathf.Clamp(rotateAmountY, -60f, 60f);
+		transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, rotateAmountX, 0f);
+		HeroHead.transform.rotation = Quaternion.Euler(-rotateAmountY, HeroHead.transform.rotation.eulerAngles.y, 0);
 	}
 
 	public IEnumerator CollisionOff()
 	{
 		isTeleported = !isTeleported;
-		Controller.enabled = !isTeleported;
+		controller.enabled = !isTeleported;
 		yield return new WaitForSeconds(0.06f);
 		isTeleported = !isTeleported;
-		Controller.enabled = !isTeleported;
+		controller.enabled = !isTeleported;
 	}
 
 	public void Teleported(Vector3 TeleportPosition)
@@ -98,42 +83,22 @@ public class Grunt : MonoBehaviour
 		transform.rotation = rotation;
 	}
 
-	Vector3 PlayerPosition
-    {
-        get
-        {
-			return transform.position;
-
-		}
-    }
-
-	Quaternion PlayerRotation
-    {
-		get
-        {
-			return transform.rotation;
-        }
-    }
-
-	private void GetMove()
+	void Movement()
 	{
-		if (!isTeleported)
-		{
-			Remove.x = Input.GetAxis("Horizontal") * Speed;
-			Remove.z = Input.GetAxis("Vertical") * Speed;
-			Remove = base.transform.TransformDirection(Remove);
-		}
+		//grounded = Physics.Raycast(transform.position, Vector3.down, out hitInfo, 2f, Mask.value);
+		grounded = controller.isGrounded;
+
+		moveVector.x = Input.GetAxis("Horizontal") * Speed;
+		if (!grounded) moveVector.y -= gravitySpeed;
+		moveVector.z = Input.GetAxis("Vertical") * Speed;
+		moveVector = transform.TransformDirection(moveVector);
 	}
 
-	private void Update()
+	void Update()
 	{
-		GetMove();
+		Movement();
 		Rotate();
 		Speed = 6 + Parameters.AddSpeed;
-	}
-
-	private void FixedUpdate()
-	{
-		Controller.Move(Remove * Time.fixedDeltaTime);
+		controller.Move(moveVector * Time.deltaTime);
 	}
 }
